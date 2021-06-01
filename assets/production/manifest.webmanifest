@@ -1,0 +1,27 @@
+{
+    "name": "Alt om film Admin",
+    "short_name": "Alt om film Admin",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "icon192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icon512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#6d1855",
+    "background_color": "#6d1855",
+    "display": "standalone"
+}
