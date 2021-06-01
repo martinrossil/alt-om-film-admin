@@ -1,0 +1,41 @@
+import IProductionCompany from './IProductionCompany';
+import IGenre from './IGenre';
+import ICountry from './ICountry';
+import ILanguage from './ILanguage';
+import ICollection from './ICollection';
+import ICast from './ICast';
+import ICrew from './ICrew';
+import IBackdrop from './IBackdrop';
+import IPoster from './IPoster';
+
+export default interface IMovie {
+    adult: boolean;
+    backdrop_path: string | null;
+    belongs_to_collection: ICollection | null;
+    budget: number;
+    genres: Array<IGenre>;
+    homepage: string | null;
+    id: number;
+    imdb_id: string | null;
+    original_language: string;
+    original_title: string;
+    overview: string | null;
+    popularity: number;
+    poster_path: string | null;
+    production_companies: Array<IProductionCompany>;
+    production_countries: Array<ICountry>;
+    release_date: string;
+    revenue: number;
+    runtime: number | null;
+    spoken_languages: Array<ILanguage>;
+    status: string;
+    tagline: string | null;
+    title: string;
+    video: boolean;
+    vote_average: number;
+    vote_count: number;
+    cast: Array<ICast>;
+    crew: Array<ICrew>;
+    backdrops: Array<IBackdrop>;
+    posters: Array<IPoster>;
+}
